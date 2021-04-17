@@ -1,0 +1,198 @@
+@media screen and (min-width:640px) and (max-width:1280px){
+	/* 关于断点 */
+	.AboutMainBox>h2{font-size: 60px;}
+	.AboutMainBox>h3{font-size: 20px;}
+	.AboutMainBox>p{font-size: 18px;}
+	/* .AboutMainBox{padding:65px 106px;} */
+	.AboutMainBox{padding:24px;max-width: 640px;}
+	/* .About{padding:0px 90px;} */
+	.About{padding:24px}
+	.detalLeft{top:145px}
+	.detalRight{bottom: 235px;}
+	/* 关于断点 */
+}
+@media screen and (min-width:1024px) and (max-width:1280px){
+	/* 头部断点 */
+	.flexLeft{ margin-left: 10px;height: auto;}
+	.leftMain>h1{font-size: 72px;width: 240px;margin: auto;width: 215px}
+	.leftMain>h1>p{font-size: 24px;}
+	.leftMain>p{font-size: 18px;}
+	.leftMain>a{width: 160px;height: 52px;padding: 16px 64px;}
+	.flexRight{top: 35px;left: -45px;height: auto;}
+	.flexRight>img{transform: scale(1);}
+	.About{padding: 90px;}
+	/* 头部断点 */
+	/* 讲者断点 */
+	.people{padding: 48px 0px;}
+	.peopleMain{max-width: 1024px;}
+	.til>h2{font-size: 60px;margin-bottom: 4px;}
+	.til>h3{font-size: 20px;}
+	.much>li{height: auto;}
+	/* 讲者断点 */
+	/* 日程断点 */
+	.day{padding: 48px 0;}
+	.studyTime{max-width: 1024px;}
+	.studyTimeMian{max-width: 640px;}
+	.studyTimeMian>h2{font-size: 60px;}
+	.studyTimeMian>h3{font-size: 20px;}
+	.studyTimeMian>p{font-size: 18px;}
+	.kecMain>h2{font-size: 18px;}
+	.kecMain{font-size: 14px;}
+	/* 日程断点 */
+	/* 伙伴断点 */
+	.imagone{flex-wrap: wrap;}
+	/* 伙伴断点 */
+	/* 文字描述断点 */
+	.fontmain{max-width: 1024px;}
+	.jieheleft>h2{font-size: 20px;}
+	.jieheright>h2{font-size: 20px;}
+	/* 文字描述断点 */
+	/* 开发开始断点 */
+	.Caneco{padding: 24px 32px;max-width: 1024px;}
+	/* 开发开始断点 */
+	/* 底部断点 */
+	.footermain{max-width: 1024px;}
+	.footermainleft>p{font-size: 14px;}
+	.footermainleft>font{font-size: 12px;}
+	/* 底部断点 */
+}
+@media screen and (min-width:640px) and (max-width:1023px){
+	/* 日程断点 */
+	.dayleftone{display: none;}
+	.daylefttwo{display: none;}
+	.dayright{display: none;}
+	.day{padding: 48px 0;}
+	.studyTime{max-width: 640px;}
+	.studyTimeMian{max-width: 640px;padding: 24px;}
+	.studyTimeMian>h2{font-size: 60px;}
+	.studyTimeMian>h3{font-size: 18px;}
+	.studyTimeMian>p{font-size: 16px;}
+	.kecMain>h2{font-size: 16px;}
+	.kecMain{font-size: 16px;}
+	.kec>li>span{padding: 12px;}
+	.kecMain{padding: 12px 24px 12px 8px;}
+	.kecMain>h2{font-size: 18px;}
+	.kecMain>h3{margin:8px 0;}
+	.kecMain>p{margin: 0;}
+	/* 日程断点 */
+	/* 伙伴断点 */
+	.friends{padding: 48px 0px;}
+	.friendsMain{max-width: 640px;}
+	.friendsMs>h2{font-size: 60px;}
+	.friendsMs>p{font-size: 18px;}
+	.imagone>li{width: 288px;}
+	.imagone{flex-wrap: wrap;}
+	/* 伙伴断点 */
+	/* 文字描述断点 */
+	.fontmain{max-width: 640px;}
+	.jihe{margin: 0;width: 100%;flex-direction:column}
+	.jiheright{margin: 0;width: 100%;margin-top: 48px;}
+	.jiheright>h2{font-size: 18px;}
+	.jieheleft{width: 100%;}
+	.jieheleft>h2{font-size: 18px;}
+	/* 文字描述断点 */
+	/* 开发开始断点 */
+	.Caneco{max-width: 640px;padding: 24px 32px;}
+	.Caneconmain{flex-direction: column-reverse;margin: 0;width: 100%;}
+	.Canecomainleft{padding: 12px;margin-top: 12px;width: 100%;text-align: center;}
+	.Canecomainleft>h5{font-size: 18px;}
+	.Canecomainright{padding: 0;margin: 0 auto;width: 66%;}
+	/* 开发开始断点 */	
+	/* 底部断点 */
+	.footer{padding: 48px 0px;}
+	.footermain{max-width: 640px;flex-direction: column-reverse;}
+	.footermainleft{margin-top: 24px;}
+	.footermainleft>p{text-align: center;}
+	.footermainleft>font{display: flex;flex-direction: column;text-align: center;margin-top: 24px;}
+	.footermainleft>font{font-size: 12px;}
+	.footermainleft>font>span{height: 8px;display: block;color: #000000;}
+	/* 底部断点 */
+}
+@media screen and (max-width:640px){
+	.About{padding: 48px 0;}
+	.AboutMainBox{padding: 0px 20px;}
+	.AboutMainBox>h2{font-size: 48px;}
+	.AboutMainBox>h3{font-size: 16px;}
+	.AboutMainBox>p{font-size: 16px;}
+	
+	/* 讲者断点 */
+	.people{padding: 48px 0;}
+	.til>h2{font-size:48px;}
+	.til>h3{font-size: 16px;}
+	.peopleMain{padding: 0;}
+	.much>li{width: 50%;height:104px;overflow: hidden;}
+	.much>li>img{width:100%;height: 96px;    object-fit: cover;}
+	.much>li>p{font-size: 12px;}
+	/* 讲者断点 */
+	/* 日程断点 */
+	.dayleftone{display: none;}
+	.daylefttwo{display: none;}
+	.dayright{display: none;}
+	.day{padding: 48px 0;}
+	.studyTimeMian{max-width: 640px;padding: 0;}
+	.studyTimeMian>h2{font-size: 48px;}
+	.studyTimeMian>h3{font-size: 16px;}
+	.kecMain>h2{font-size: 16px;}
+	.kec{margin-bottom: 0;}
+	.kec>li>span{padding: 12px;}
+	.kecMain{padding: 12px 24px 12px 8px;font-size: 16px;}
+	.kecMain>h3{margin:8px 0;}
+	.kecMain>p{margin: 0;}
+	/* 日程断点 */
+	/* 伙伴断点 */
+	.friends{padding: 48px 0px;}
+	.friendsMain{max-width: 640px;}
+	.friendsMs>h2{font-size: 48px;}
+	.friendsMs>p{font-size: 16px;}
+	.imagone>li{width: 288px;}
+	.imagone{flex-wrap: wrap;}
+	/* 伙伴断点 */
+	/* 文字描述断点 */
+	.jihe{margin: 0;width: 100%;flex-direction:column}
+	.jiheright{margin: 0;width: 100%;margin-top: 48px;}
+	.jiheright>h2{font-size: 16px;}
+	.jieheleft{width: 100%;}
+	.jieheleft>h2{font-size: 16px;}
+	/* 文字描述断点 */
+	/* 开发开始断点 */
+	.Caneco{max-width: 640px;padding: 24px 32px;}
+	.Caneconmain{flex-direction: column-reverse;margin: 0;width: 100%;}
+	.Canecomainleft{padding: 12px;margin-top: 12px;width: 100%;text-align: center;}
+	.Canecomainleft>h5{font-size: 18px;}
+	.Canecomainright{padding: 0;width: 100%;}
+	/* 开发开始断点 */
+	/* 底部断点 */
+	.footer{padding: 48px 0px;}
+	.footermain{max-width: 640px;flex-direction: column-reverse;}
+	.footermainleft{margin-top: 24px;}
+	.footermainleft>p{display: flex;align-items: center;flex-direction: column;font-size: 16px;}
+	.footermainleft>p>span{display:block;height: 8px;color: #000000;}
+	.footermainleft>font{display: flex;flex-direction: column;text-align: center;margin-top: 48px;font-size: 12px;;}
+	.footermainleft>font>span{height: 8px;display: block;color: #000000;}
+	/* 底部断点 */
+}
+
+@media screen and (max-width:1024px){
+	nav{display: none;}
+	.header{flex-direction:column-reverse}
+	.flexRight{width: 66%;padding: 0;margin: 0 auto;height: auto;}
+	.flexRight>img{top:15px}
+	.flexLeft{width: 100%;height: auto;padding: 0;margin: 0;}
+	.leftMain{padding: 0;}
+	.leftMain>h1{font-size: 48px;width: 100%;}
+	.leftMain>h1>p{font-size: 20px;height: auto;}
+	.leftMain>p{font-size: 16px;margin: 4px 0;white-space: nowrap;}
+	.leftMain>h2{font-size: 18px;}
+	.leftMain>a{width: 160px;height: 52px;padding: 16px 64px;}
+	.detalLeft{display:none}
+	.detalRight{display:none}
+	/* 讲者断点 */
+	.til>h2{font-size: 60px;margin-bottom: 4px;}
+	.til>h3{font-size: 18px;}
+	.peopleMain{max-width: 640px;}
+	.much>li{width: 50%;height: auto;}
+	/* 讲者断点 */
+}
+@media screen and (min-width:640px){
+	.manyPeo{border:4px solid #2f3945;border-radius: 5px;}
+}
