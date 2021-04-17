@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;}
+div{box-sizing: border-box;}
+a{text-decoration: none;display: block;box-sizing: border-box;}
+img{display: block;}
+li{list-style: none;}
+/* -----第一板块开始------- */
+.header{width: 100%;height: 755px;position: relative;background: url(../img/GEMERA1.jpg) no-repeat center center;background-size: cover;}
+.header>img:nth-of-type(1){position: absolute;width: 74px;cursor: pointer;left: 50%;margin-left: -37px;top: 50px;transition: 0.38s;}
+.header>img:nth-of-type(1):hover{opacity:.5;transition: 0.38s;}
+.header>h1{font-size: 31px;color: #D6D1CA;position: absolute;width: 100%;text-align: center;top: 225px;letter-spacing: 9px;}
+.header>img:nth-of-type(2){width: 200px;height: 27px;position: absolute;left: 50%;margin-left: -100px;bottom:85px}
+/* -----第一板块结束------- */
+/* -----第二板块开始------- */
+.black{width: 100%;height: 100px;/* background-image: linear-gradient(transparent -60%, rgba(0, 0, 0, 1) 35%); */background: #000000;}
+/* -----第二板块结束------- */
+/* -----第三板块开始------- */
+.miaos{width: 100%;height:auto;background: #000000;}
+.miaos>h3{width: 641px;height: 99px;padding: 0px 25px;box-sizing: border-box;font-size: 19px;color: #D6D1CA;margin: 0 auto;line-height: 30px;margin-bottom: 50px;}
+.neir{width: 100%;height: 1212px;background: #000000;display: none;}
+.neirmain{width: 1075px;height: 900px;margin: 0 auto;}
+.neirmain>img:nth-of-type(1){width: 100%;cursor: pointer;}
+.neirmain>img:nth-of-type(2){width: 104%;cursor: pointer;}
+.miaos>img{width: 139px;height: 50px;margin: 0 auto;cursor: pointer;}
+/* -----第三板块结束------- */
+/* -----第四板块开始------- */
+.ship{width: 100%;height: 648px;position: relative;}
+.ship>video{width: 100%;}
+.yuan1{position: absolute;left: 515px;top: 380px;color: #D6D1CA;font-size: 12px;letter-spacing: 4px;cursor: pointer;opacity: 0;transition: 0.5s;}
+.yuan1>span{display: inline-block;width: 22px;height: 22px;background: white;border-radius: 50%;}
+.yuan2{position: absolute;left: 750px;top: 250px;color: #D6D1CA;font-size: 12px;letter-spacing: 4px;cursor: pointer;opacity: 0;transition: 0.5s;}
+.yuan2>span{display: inline-block;width: 22px;height: 22px;background: white;border-radius: 50%;}
+.yuan3{position: absolute;left: 840px;top: 410px;color: #D6D1CA;font-size: 12px;letter-spacing: 4px;cursor: pointer;opacity: 0;transition: 0.5s;}
+.yuan3>span{display: inline-block;width: 22px;height: 22px;background: white;border-radius: 50%;}
+.ship>h4{width: 814px;height: 16px;text-align: center;position: absolute;bottom: 15px;color: #D6D1CA;left: 50%;margin-left: -407px;letter-spacing: 4px;font-size: 12px;}
+/* -----第四板块结束------- */
+/* -----第五板块开始------- */
+.last{width: 100%;height: 570px;background: url(../img/beijin.jpg);position: relative;}
+.lastmain{position: absolute;width: 100%;bottom: 0;background: #000000;}
+.lastmain>img{width: 100%;}
+/* -----第五板块结束------- */
+.yinc{width: 100%;height:0px;position: relative;}
+/* -----隐藏开始------- */
+.fac1{width: 100%;height: 1547px;position: absolute;left:0;top:0;display:none}
+.fac1>img{width: 100%;}
+/* -----隐藏结束------- */
+/* -----隐藏开始------- */
+.fac2{width: 100%;height: 1547px;position: absolute;left:0;top:0;display:none}
+.fac2>img{width: 100%;}
+/* -----隐藏结束------- */
+/* -----隐藏开始------- */
+.fac3{width: 100%;height: auto;position: absolute;left:0;top:0;display:none}
+.fac3>img{width: 100%;}
+/* -----隐藏结束------- */

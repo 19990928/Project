@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0;}
+div{box-sizing: border-box;}
+a{text-decoration: none;display: block;box-sizing: border-box;}
+img{display: block;}
+li{list-style: none;}
+/* ----导航栏开始---- */
+.nav{width: 100%;height: 90px;padding: 14px 128px;position: fixed;z-index: 1;}
+.navleft{width: 30%;height: 62px;float: left;}
+.navleft>a{margin-top: -10px;}
+.navright{width: 70%;height: 62px;float: left;padding-right: 10%;}
+.list{width: 373px;height: 62px;float: right;}
+.list>li{float: left;transition: 0.2s;padding: 0;position: relative;}
+.list>li>a{height: 40px;font-size: 10px;font-weight: 100;transition: 0.2s;padding: 8px 13px;box-sizing: border-box;line-height: 30px;color: white;position: relative;margin: 3px 0;}
+.list>li>a::after{content: "\2022";display: block;color: #000;text-align:center;font-size:20px;font-weight: 700;position: absolute;bottom: -8px;left:0;right: 0;display: none;}
+.list>li:hover>a{background: white;font-size: 11px;font-style: italic;font-weight: 800;color:#000 !important;}
+.list>li:hover>a::after{display: block;}
+.list>li:hover>.yinc{display: block;transition: 0.5s;}
+.yinc{width: 250px;height: auto;background:white;box-sizing: border-box;padding: 8px 0;position: absolute;top:43px;left:0px;display: none;transition: 0.5s;}
+.yinc>li>a{width: 250px;height: 32px;margin: 3px 0;padding: 4px 13px 4px 36px;font-size: 12px;color: #999999;position: relative;}
+.yinc>li>a::after{content: "\2022";display: block;color: #000;text-align:center;font-size:20px;font-weight: 700;position: absolute;top:0;left: 20px;display: none;}
+.yinc>li:hover>a{font-style: italic;color:#000 !important;font-weight: 800;}
+.yinc>li:hover>a::after{display: block;}
+.selecs{position: relative;}
+.selecs>ul{width: 250px;height: 433px;background:white;position: absolute;top: 0;left: 250px;overflow: auto;display: none;}
+.selecs>ul>li{width: 233px;height: 32px;position: relative;box-sizing: border-box;padding: 4px 13px 4px 36px;font-size: 12px;color: #999999;margin: 5px 0;cursor: pointer;}
+.selecs>ul>li::after{content: "\2022";display: block;color: #000;text-align:center;font-size:20px;font-weight: 700;position: absolute;top:0;left: 20px;display: none;}
+.selecs:hover>ul{display: block;}
+.selecs>ul>li:hover{font-style: italic;color:#000;font-weight: 800;}
+.selecs>ul>li:hover::after{display: block;}
+/* ----导航栏结束---- */
+/* ----第一板块开始---- */
+.first{width: 100%;height: 722px;position: relative;}
+.firstone{width: 759px;height: 722px;background:url(../img/jesko1.jpg);background-size: 100%;background-position:0px -130px;float: left;position: relative;}
+.firstonemain{width: 100%;height: 187px;position: absolute;top:10vh;}
+.firstonemain>p:nth-of-type(1){width: 379px;height: 23px;font-size: 13px;text-align: center;margin: 14px auto;color:white;}
+.firstonemain>p:nth-of-type(2){width: 379px;height: 99px;font-size: 14px;text-align: center;margin: 14px auto;color:white;line-height: 30px;}
+.firstone>a{width: 200px;height: 49px;background: #f0f0f0;color: #5e5e5e;font-size: 14px;padding: 14px 20px;border-color: #f0f0f0;border-radius: 5px;position: absolute;bottom:70px;left: 50%;margin-left: -100px;text-align: center;}
+.firsttwo{width: 759px;height: 722px;background:url(../img/jesko2.jpg);background-size: 100%;background-position:0px -130px;float:left;position: relative;}
+.firsttwomain{width: 100%;height: 122px;position: absolute;top:10vh;}
+.firsttwomain>p:nth-of-type(1){width: 379px;height: 23px;font-size: 13px;text-align: center;margin: 14px auto;color:white;}
+.firsttwomain>p:nth-of-type(2){width: 379px;height: 99px;font-size: 14px;text-align: center;margin: 14px auto;color:white;line-height: 30px;}
+.firsttwo>a{width: 200px;height: 49px;background: #f0f0f0;color: #5e5e5e;font-size: 14px;padding: 14px 20px;border-color: #f0f0f0;border-radius: 5px;position: absolute;bottom:70px;left: 50%;margin-left: -100px;text-align: center;}
+/* ----第一板块结束---- */
+/* ----第二板块开始---- */
+.eighth{width: 100%;height: 204px;background: #212121;float: left;padding: 30px 128px;}
+.eighthone{width: 421px;height: 97px;float: left;}
+.onemain{width: 72px;height: 78px;float: left;margin-top: 15px;}
+.onemain>img{width: 62px;height: 70px;}
+.twomain{width: 160px;height: 94px;float: left;}
+.twomain>span{font-size: 12px;color: white;letter-spacing: 0.2rem;font-weight: bold;}
+.twomain>p{width: 160px;height: 52px;color: white;font-size: 12px;margin-top: 12px;}
+.eighthtwo{width: 842px;height: 97px;float: right;}
+.eighthtwo>p{margin-top: 12px;width: 210px;height: 23px;font-size: 12px;color: white;letter-spacing: 0.2rem;float: left;}
+.eighthtwo>div{width: 210px;height: 49px;float: left;margin: 12px 0;padding-left: 70px;}
+.eighthtwo>div>img{float: left;width: 25px;height: 25px;margin: 0px 5px;}
+.eighth>p{width: 100%;height: 23px;margin: 12px 0px;color: white;font-size: 12px;text-align: right;}
+/* ----第二板块结束---- */

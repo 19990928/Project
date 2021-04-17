@@ -1,0 +1,181 @@
+*{margin: 0;padding: 0;}
+div{box-sizing: border-box;}
+a{text-decoration: none;display: block;box-sizing: border-box;}
+img{display: block;}
+li{list-style: none;}
+/* ----导航栏开始---- */
+.nav{width: 100%;height: 90px;padding: 14px 128px;position: fixed;z-index: 99;}
+.navleft{width: 30%;height: 62px;float: left;}
+.navleft>a{margin-top: -10px;}
+.navright{width: 70%;height: 62px;float: left;padding-right: 10%;}
+.list{width: 373px;height: 62px;float: right;}
+.list>li{float: left;transition: 0.2s;padding: 0;position: relative;}
+.list>li>a{height: 40px;font-size: 10px;font-weight: 100;transition: 0.2s;padding: 8px 13px;box-sizing: border-box;line-height: 30px;color: white;position: relative;margin: 3px 0;}
+.list>li>a::after{content: "\2022";display: block;color: #000;text-align:center;font-size:20px;font-weight: 700;position: absolute;bottom: -8px;left:0;right: 0;display: none;}
+.list>li:hover>a{background: white;font-size: 11px;font-style: italic;font-weight: 800;color:#000 !important;}
+.list>li:hover>a::after{display: block;}
+.list>li:hover>.yinc{display: block;transition: 0.5s;}
+.yinc{width: 250px;height: auto;background:white;box-sizing: border-box;padding: 8px 0;position: absolute;top:43px;left:0px;display: none;transition: 0.5s;}
+.yinc>li>a{width: 250px;height: 32px;margin: 3px 0;padding: 4px 13px 4px 36px;font-size: 12px;color: #999999;position: relative;}
+.yinc>li>a::after{content: "\2022";display: block;color: #000;text-align:center;font-size:20px;font-weight: 700;position: absolute;top:0;left: 20px;display: none;}
+.yinc>li:hover>a{font-style: italic;color:#000 !important;font-weight: 800;}
+.yinc>li:hover>a::after{display: block;}
+.selecs{position: relative;}
+.selecs>ul{width: 250px;height: 433px;background:white;position: absolute;top: 0;left: 250px;overflow: auto;display: none;}
+.selecs>ul>li{width: 233px;height: 32px;position: relative;box-sizing: border-box;padding: 4px 13px 4px 36px;font-size: 12px;color: #999999;margin: 5px 0;cursor: pointer;}
+.selecs>ul>li::after{content: "\2022";display: block;color: #000;text-align:center;font-size:20px;font-weight: 700;position: absolute;top:0;left: 20px;display: none;}
+.selecs:hover>ul{display: block;}
+.selecs>ul>li:hover{font-style: italic;color:#000;font-weight: 800;}
+.selecs>ul>li:hover::after{display: block;}
+/* ----导航栏结束---- */
+/* ----第一板块开始---- */
+.first{width: 100%;height: 722px;background: url(../img/sec1.jpg);background-position: 50% 50%;background-size: 100%;position: relative;}
+.pc{width: 350px;height: 56px;position: absolute;top:50%;margin-top: -33px;left:50%;margin-left: -175px;}
+.pc>img{width: 100%;}
+.first>span{display: block;width: 30px;height: 50px;border: 2px solid #fff;border-radius: 50px;box-sizing: border-box;position: absolute;bottom: 73px;left: 50%;margin-left: -25px;cursor: pointer;}
+/* ----第一板块结束---- */
+/* ----第三板块开始---- */
+.third{width: 100%;height: 213px;margin-top: 10px;overflow: hidden;}
+.third>img{float: left;cursor: pointer;width: 379px;opacity: 0.6;transition: all 0.2s;box-sizing: border-box;}
+.third>img:hover{opacity: 1;transform: scale(1.05);}
+/* ----第三板块结束---- */
+/* ----第四板块开始---- */
+.fourthmain{width: 100%;height: 505px;background: white;position: relative;overflow: hidden;}
+.fourth{width: 100%;height: 505px;background: white;position: absolute;left:1519px}
+.fourthleft{width: 759px;height: 505px;float: left;padding: 42px 128px 14px;}
+.fourthleft>h2{width: 503px;height: auto;font-size: 30px;font-style: italic;font-weight: 700;}
+.fourthleft>p{width: 503px;height:auto;margin: 16px 0 14px;font-size: 14px;color: #000000;font-family: "宋体";line-height:24px;}
+.fourthright{width: 759px;height: 505px;float: left;background: url(../img/four1.jpg);background-size: 100%;}
+/* ----第四板块结束---- */
+/* ----第五板块开始---- */
+.fiveth{width: 100%;height: 226px;padding: 42px 128px 14px;background: white;}
+.anniuone{background: #000000;width: 200px;height: 42px;color: #FFFFFF;padding: 12px;font-size: 12px; transition: 0.4s;border: 1px solid #000;cursor: pointer;letter-spacing: 4px; margin: 0 auto; margin-top: 65px;}
+.anniuone:hover{background: white;color: #000000;}
+/* ----第五板块结束---- */
+/* ----第六板块开始---- */
+.sixth{width: 100%;height: 589px;padding-bottom: 5rem;background: white;display: none;}
+.sixthleft{width:759px;height: 367px;padding: 42px 128px 14px;float: left;}
+.sixthleft>h3{width: 503px;height: 46px;font-size: 35px;font-weight: 200;color: #000000;}
+.sixthleft>p{width: 503px;height: auto;margin: 16px 0;font-size: 14px;line-height:24px;font-family: "宋体";}
+.sixthright{width:759px;height: 367px;padding: 42px 128px 14px;float: left;}
+.sixthright>img{width: 100%;}
+.sixthright>p{width: 503px;height: auto;margin-top: 14px;font-size: 14px;line-height:24px;font-family: "宋体";}
+/* ----第六板块结束---- */
+/* ----第七板块开始---- */
+.sevenmain{width: 100%;height: 540px;background: white;position: relative;overflow: hidden;}
+.seven{width: 100%;height: 540px;background:white;position: absolute;left: -1519px;}
+.sevenleft{width: 759px;height: 540px;float: left;background: url(../img/seven1.jpg);background-size: 100%;background-repeat: no-repeat;}
+.sevenright{width: 759px;height: 505px;float: left;padding: 42px 128px 14px;}
+.sevenright>h2{width: 503px;height: auto;font-size: 30px;font-style: italic;font-weight: 700;}
+.sevenright>p{width: 503px;height:auto;margin: 16px 0 14px;font-size: 14px;color: #000000;font-family: "宋体";line-height:24px;}
+/* ----第七板块结束---- */
+/* ----第八板块开始---- */
+.eighth{width: 100%;height: 226px;padding: 42px 128px 14px;background: white;}
+.anniutwo{background: #000000;width: 200px;height: 42px;color: #FFFFFF;padding: 12px;font-size: 12px; transition: 0.4s;border: 1px solid #000;cursor: pointer;letter-spacing: 4px;margin: 0 auto;margin-top: 65px;}
+.anniutwo:hover{background: white;color: #000000;}
+/* ----第八板块结束---- */
+/* ----第九板块开始---- */
+.ninth{width: 100%;height: 1125px;padding-bottom: 5rem;background: white;display: none;}
+.ninthleft{width: 759px;height: 1024px;padding: 42px 128px 14px;float: left;}
+.ninthleft>h3{width: 503px;height: 46px;font-size: 35px;font-weight: 200;color: #000000;}
+.ninthleft>p{width: 503px;height: auto;margin: 16px 0;font-size: 14px;line-height:24px;font-family: "宋体";}
+.ninthleft>img{margin: 0 auto;width: 300px;height: 162px;}
+.ninthright{width: 759px;height: 1045px;padding: 42px 128px 14px;float: left;}
+.ninthright>img{margin: 0 auto;width: 300px;height: 171px;}
+.ninthright>p{width: 503px;height: auto;margin: 14px 0;font-size: 14px;line-height:24px;font-family: "宋体";}
+/* ----第九板块结束---- */
+/* ----第十板块开始---- */
+.tenthmain{width: 100%;height: 540px;background: white;overflow: hidden;position: relative;}
+.tenth{width: 100%;height: 540px;background: white;position: absolute;left: 1519px;}
+.tenthleft{width: 759px;height: 505px;float: left;padding: 42px 128px 14px;}
+.tenthleft>h2{width: 503px;height: auto;font-size: 30px;font-style: italic;font-weight: 700;}
+.tenthleft>p{width: 503px;height:auto;margin: 16px 0 14px;font-size: 14px;color: #000000;font-family: "宋体";line-height:24px;}
+.tenthright{width: 759px;height: 540px;float: left;background: url(../img/tenth1.png);background-size: 100%;}
+/* ----第十板块结束---- */
+/* ----第十一板块开始---- */
+.eleventh{width: 100%;height: 226px;padding: 42px 128px 14px;background: white;}
+.anniuthree{background: #000000;width: 155px;height: 42px;color: #FFFFFF;padding: 12px;font-size: 12px; transition: 0.4s;border: 1px solid #000;cursor: pointer;letter-spacing: 4px;margin: 0 auto;margin-top: 65px;}
+.anniuthree:hover{background: white;color: #000000;}
+/* ----第十一板块结束---- */
+/* ----第十二板块开始---- */
+.twelfth{width: 100%;height: 540px;background:white;display: none;}
+.twelfthleft{width:759px;height: 367px;padding: 42px 128px 14px;float: left;background: white;}
+.twelfthleft>h3{width: :;3px;height: 46px;font-size: 35px;font-weight: 200;color: #000000;}
+.twelfthleft>p{width: 503px;height: auto;margin: 16px 0;font-size: 14px;line-height:24px;font-family: "宋体";}
+/* ----第十二板块结束---- */
+/* ----第十三板块开始---- */
+.thirteenthmain{width: 100%;height: 540px;background: white;overflow: hidden;position: relative;}
+.thirteenth{width: 100%;height: 540px;background: white;position: absolute;left: -1519px;}
+.thirteenthleft{width: 759px;height: 540px;float: left;background: url(../img/eleventh1.png);background-size: 100%;background-repeat: no-repeat;}
+.thirteenthright{width: 759px;height: 540px;float: left;padding: 42px 128px 14px;}
+.thirteenthright>h2{width: 503px;height: auto;font-size: 30px;font-style: italic;font-weight: 700;}
+.thirteenthright>p{width: 503px;height:auto;margin: 16px 0 14px;font-size: 14px;color: #000000;font-family: "宋体";line-height:24px;}
+.twelfthright{width: 759px;height: 540px;float: left;background: url(../img/twelfth1.png);background-size: 90%;background-repeat: no-repeat;}
+/* ----第十三板块结束---- */
+/* ----第十四板块开始---- */
+.fourteenth{width: 100%;height: 226px;padding: 42px 128px 14px;background: white;}
+.anniufour{background: #000000;width: 155px;height: 42px;color: #FFFFFF;padding: 12px;font-size: 12px; transition: 0.4s;border: 1px solid #000;cursor: pointer;letter-spacing: 4px;margin: 0 auto;margin-top: 65px;}
+.anniufour:hover{background: white;color: #000000;}
+/* ----第十四板块结束---- */
+/* ----第十五板块开始---- */
+.fifteenth{width: 100%;height: 1050px;padding-bottom: 5rem;background: white;display: none;}
+.fifteenthleft{width:759px;height: 970px;padding: 42px 128px 14px;float: left;}
+.fifteenthleft>h3{width: 503px;height:auto;font-size: 35px;font-weight: 200;color: #000000;}
+.fifteenthleft>p{width: 503px;height: auto;margin: 16px 0;font-size: 14px;line-height:24px;font-family: "宋体";}
+.fifteenthleft>img{margin: 0 auto;width: 300px;height: 162px;}
+.fifteenthright{width: 759px;height: 394px;float: left;}
+.fifteenthright>video{padding: 3em 8rem 1em 8rem;width:500px;height: 281px;outline: none;}
+/* ----第十五板块结束---- */
+/* ----第十六板块开始---- */
+.sixteenthmain{width: 100%;height: 540px;background: white;position: relative;overflow: hidden;}
+.sixteenth{width: 100%;height: 540px;background: white;position: absolute;left: 1519px;}
+.sixteenthleft{width: 759px;height: 505px;float: left;padding: 42px 128px 14px;}
+.sixteenthleft>h2{width: 503px;height: auto;font-size: 30px;font-style: italic;font-weight: 700;}
+.sixteenthleft>p{width: 503px;height:auto;margin: 16px 0 14px;font-size: 14px;color: #000000;font-family: "宋体";line-height:24px;}
+.sixteenthright{width: 759px;height: 540px;float: left;background: url(../img/sixteenth1.png);background-size: 100%;}
+/* ----第十六板块结束---- */
+/* ----选项卡开始---- */
+.tab{width: 100%;height:auto;padding: 30px 0px;background: white;}
+.tabone{width: 100%;height: 30px;margin: 16px 0;font-size: 19px;font-weight: 700;letter-spacing: 1.3rem;text-align: center;}
+.miaosu{width: 100%;height: 33px;text-align: center;}
+.miaosu>li{width: auto;height: 32px;display: inline-block;padding: 4.2px 8.4px;box-sizing: border-box;line-height: 30px;color: #666;font-size: 14px;transform: skewX(-10deg);cursor: pointer;font-family: "宋体";background: #ebebeb;}
+.miaosu>li:nth-of-type(1){background: #000000;color: white;}
+.wrapp{width: 1377px;height:auto;margin: 0 auto;padding-top: 48px;display: none;}
+.wrapp>h2{width: 100%;height: 30px;text-align: center;font-size: 30px;color: #000000;font-style: italic;font-weight: 700;}
+.wrapper{width: 800px;height:auto;margin: 0 auto;margin-top:45px;padding-bottom: 50px;}
+.wrapper>p{width: 800px;height:auto;margin: 14px auto;text-align: center;font-size: 35px;color: #000000;font-family: "宋体";}
+.wrapper>img:nth-of-type(1){width: 800px;height: 226px;}
+.wrapper>span{display: block;width: 800px;height: auto;margin: 5px 0;font-size: 14px;line-height: 150%;font-family: Symbol;color: black;}
+.wrapper>img:nth-of-type(2){width: 554px;height: 246px;}
+/* ----选项卡结束---- */
+/* ----第十七板块开始---- */
+.seventeenth{width: 1519px;height: 925px;background: white;padding-left: 112.6px;padding-right: 112.4px;}
+.seventeenth>h2{width: 1294px;height: 62px;font-size: 19px;font-weight: 700;letter-spacing: 1.3rem;margin-bottom: 1rem;text-align: center;}
+.allpc{width: 1294px;height: 854px;}
+.allpc>ul>li{width: 321px;height: 250px;float: left;cursor: pointer;}
+.allpc>ul>li>img{display: block;object-fit: cover;width: 100%;height: 250px;}
+/* ----第十七板块结束---- */
+/* ----第十八板块开始---- */
+.eighteenth{width:100%;height: 525px;background:white;}
+.eighteenth>p{width: 100%;height: 125px;font-size: 19px;font-weight: 700;letter-spacing: 1.3rem;text-align: center;line-height: 125px;}
+.postbox{width: 511px;height: 400px;position: relative;}
+.postbox>img{width:511px;height: 400px;display: block;object-fit: cover;filter: grayscale(0);}
+.postbox>img:hover{filter: grayscale(50%);}
+.postmain{width: 100%;height: 100px;padding: 7px 21px;background-image: linear-gradient(transparent 10%, rgba(0, 0, 0, 1) 35%);position: absolute;left: 0;bottom: 0;}
+.postmain>span{letter-spacing: 0.2rem;font-size: 14px;color: white;}
+.postmain>h3{font-weight: 200;font-size: 24px;color: #fff;}
+/* ----第十八板块结束---- */
+/* ----结束板块开始---- */
+.jseighth{width: 100%;height: 204px;background: #212121;float: left;padding: 30px 128px;}
+.eighthone{width: 421px;height: 97px;float: left;}
+.onemain{width: 72px;height: 78px;float: left;margin-top: 15px;}
+.onemain>img{width: 62px;height: 70px;}
+.twomain{width: 160px;height: 94px;float: left;}
+.twomain>span{font-size: 12px;color: white;letter-spacing: 0.2rem;font-weight: bold;}
+.twomain>p{width: 160px;height: 52px;color: white;font-size: 12px;margin-top: 12px;}
+.eighthtwo{width: 842px;height: 97px;float: right;}
+.eighthtwo>p{margin-top: 12px;width: 210px;height: 23px;font-size: 12px;color: white;letter-spacing: 0.2rem;float: left;}
+.eighthtwo>div{width: 210px;height: 49px;float: left;margin: 12px 0;padding-left: 70px;}
+.eighthtwo>div>img{float: left;width: 25px;height: 25px;margin: 0px 5px;}
+.eighth>p{width: 100%;height: 23px;margin: 12px 0px;color: white;font-size: 12px;text-align: right;}
+/* ----结束板块结束---- */

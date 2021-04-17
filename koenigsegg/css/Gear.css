@@ -1,0 +1,110 @@
+*{margin: 0;padding: 0;}
+div{box-sizing: border-box;}
+a{text-decoration: none;display: block;box-sizing: border-box;}
+img{display: block;}
+li{list-style: none;}
+/* -----导航栏开始----- */
+.header{width: 100%;height: 162px;position: fixed;background: #0a0a0a;z-index: 90;box-sizing: border-box !important;}
+.pcimg{width: 100%;height: 110px;padding-top: 20px;}
+.pcimgone{width: 379px;height: 90px;float: left;}
+.pcimgtwo{width: 759px;height: 90px;float: left;}
+.pcimgtwo>p{width: 170px;height: 27px;margin: 0 auto;margin-top: 35px;}
+.pcimgtwo>p>a>img{width: 170px;height: 23px;}
+.pcimgthree{width: 369px;height: 90px;float: left;}
+.pcimgthreemain{width: 100%;height: 33px;margin-top: 27px;}
+.pcimgthreemain>p{width: 226px;height: 32px;margin: 0 auto;letter-spacing: 1px;font-size: 12px;font-weight: 500;padding-top: 10px;padding-right: 40px;padding-bottom: 10px;padding-left: 40px;box-sizing: border-box;color: #d6d1ca;text-align: center;cursor: pointer;}
+.pcimgthreemain>p>img{display: inline-block;margin-left: 3px;}
+.nav{width: 100%;height: 42px;}
+.nav>ul{width: 368px;height: 42px;margin: 0 auto;}
+.nav>ul>li{width: auto;height: 42px;float: left;padding: 13px 20px;box-sizing: border-box;color: #d6d1ca;font-size:12px;cursor: pointer;}
+.nav>ul>li:hover{color: white;}
+/* -----导航栏结束----- */
+/* -----黑色背景开始----- */
+.blackbox{width: 100%;height:900px;background: #0a0a0a;}
+/* -----黑色背景结束----- */
+/* -----正文内容开始----- */
+.textcontent{width: 100%;height: 1837px;padding: 40px 80px;background: #0a0a0a;}
+.textcontent>ul{width: 1359px;height: 1757px;overflow: hidden;}
+.textcontent>ul>li{width: 426px;height: 828px;float: left;margin: 0 13px;margin-bottom: 101px;}
+.textcontent>ul>li>a{position: relative;width: 426px;height: 659px;}
+.textcontent>ul>li>a>img{width: 100%;height: 639px;position: absolute;transition: 0.5s;}
+.textcontent>ul>li:hover>a>img:nth-of-type(2){opacity: 0;transition: 0.5s;}
+.astr{width: 100%;height: 117px;}
+.astr>h2{width: 100%;height: 26px;margin-bottom: 10px;letter-spacing: 1px;font-size: 20px;font-weight: 400;text-transform: uppercase;color: #d6d1ca;text-align:center;line-height: 26px;}
+.astr>span{width: 100%;height: 26px;margin-bottom: 10px;font-size: 20px;font-weight: 400;text-transform: uppercase;color: #d6d1ca;text-align:center;line-height: 26px;display: block;}
+.astr>a{width: 176px;height: 36px;padding: 10px 40px;margin: 5px auto;font-size: 12px;color: black;background: #d6d1ca;border: 1px solid #939393;font-weight: 800;text-align: center;}
+/* -----正文内容结束----- */
+/* -----滑动轮播图开始----- */
+.banner{width: 100%;height: 800px;}
+.bannerbox{width: 50%;height: 800px;overflow: hidden;float: left;position: relative;}
+.bannerbox>ul{width: 300%;height: 800px;position: absolute;}
+.bannerbox>ul>li{float: left;width: 759px;height: 800px;cursor: pointer;}
+.wenzi{width: 759px;height: 350px;overflow: hidden;position: relative;}
+.bannerbox>ul>li:nth-of-type(1){background: url(../img/maoz1.jpg);background-size: cover;background-position: 50%;background-repeat: no-repeat;}
+.bannerbox>ul>li:nth-of-type(2){background: url(../img/maoz2.jpg);background-size: cover;background-position: 50%;background-repeat: no-repeat;}
+.bannerbox>ul>li:nth-of-type(3){background: url(../img/maoz1.jpg);background-size: cover;background-position: 50%;background-repeat: no-repeat;}
+.wenzi>p{width: 162px;height: 102px;margin: 0 auto;position: absolute;top:135px;left:280px;}
+.wenzi>p>font{color: white;font-size: 35px;}
+.wenzi>p>a{width: 144px;height: 38px;padding: 0px 38px;box-sizing: border-box;background: transparent;color:white;border: 2px solid #fff;line-height: 38px;margin-top: 20px;}
+.bannerGD{width: 50%;height: 800px;float: left;}
+.GDimg{width: 100%;height: 800px;background-attachment: fixed;background-image: url(../img/bannerGD.jpg);background-position: 686px -381px;background-repeat: no-repeat;background-size: 77% auto;}
+/* -----滑动轮播图结束----- */
+/* -----固定图片开始----- */
+.bgimg{width: 100%;height: 600px;}
+.bigimgGD{width: 100%;height: 600px;background: url(../img/bigimg.jpg);background-position: center center;background-attachment: fixed;background-repeat: no-repeat;background-size: cover;position: relative;}
+.bigimgGD>img{width: 1000px;height: 135px;position: absolute;top: 50%;margin-top: -67.5px;left: 50%;margin-left: -500px;opacity: .5;}
+/* -----固定图片结束----- */
+/* -----科尼赛克齿轮介绍开始----- */
+.introduce{width: 100%;height: 700px;padding: 50px 0px 50px 0;background: #0a0a0a;}
+.introduceleft{width: 734px;height: 600px;background: url(../img/chilun.jpg);background-position: bottom center;background-repeat: no-repeat;float: left;}
+.introduceright{width: 734px;height: 600px;padding: 20px 0 0 20px;float: left;}
+.introduceright>h2{color: white;font: 30px;letter-spacing: 2px;font-weight: 600px;}
+.introduceright>p{width: 714px;height: auto;margin-bottom: 26px;color:#d6d1ca;font-size: 15px;line-height: 35px;}
+.introduceright>img{width: 180px;height: 103px;margin-bottom: 26px;}
+/* -----科尼赛克齿轮介绍介绍----- */
+/* -----尾部开始----- */
+.footer{width: 100%;height: 216px;padding: 45px 0;background: #0a0a0a;}
+.footerone{width: 132px;height: 126px;float: left;padding: 5px;}
+.footerone>img{width: 85px;height: 126px;margin: 0 auto;}
+.footertwo{width: 372px;height: 126px;float: left;padding: 5px;}
+.footertwo>span{width: 100%;height: 12px;font-size: 12px;font-weight:700;letter-spacing: 2px;color:#d6d1ca;}
+.footertwo>p{width: 161px;height: auto;font-size: 12px;color:#d6d1ca;margin-top: 20px;cursor: pointer;}
+.footerthree{width: 253px;height: 126px;float: left;padding: 5px;}
+.footerthree>p{width: 74px;height: auto;font-size: 12px;color:#d6d1ca;margin-top: 35px;cursor: pointer;line-height: 19px;}
+.footerfour{width: 253px;height: 126px;float: left;padding: 5px;}
+.footerfour>p{margin-top: 35px;}
+.footerfour>p>a{font-size: 12px;color:#d6d1ca;line-height: 19px;}
+.footerfive{width: 253px;height: 126px;float: left;padding: 5px;}
+.footerfive>p{margin-top: 35px;font-size: 12px;color:#d6d1ca;line-height: 19px;cursor: pointer;}
+.footerfive>p>a{font-size: 12px;color:#d6d1ca;line-height: 19px;}
+.footersix{width: 253px;height: 126px;float: left;padding: 5px;}
+.footersix>p{width: 74px;height: auto;font-size: 12px;color:#d6d1ca;margin-top: 35px;cursor: pointer;line-height: 19px;}
+.footerimgs{width: 100%;height:283px;background: #0a0a0a ;}
+.footerimg{width: 100%;height: 283px;background: url(../img/footerimg.svg);background-position: center right;ackground-repeat: no-repeat;background-size: cover;}
+.kongbai{width: 100%;height: 61px;background:#0a0a0a ;}
+/* -----尾部结束----- */
+/* -----返回顶部开始----- */
+.dinbu{width: 31.5px;height: 31.5px;background:#d6d1ca ;position: fixed;bottom:30px;right:30px;cursor: pointer;opacity: 0;transition: 1s;z-index: 99;}
+.dinbu>img{width: 80px;height: 15px;text-align: center;margin-left: -20px;margin-top:7.5px;}
+/* -----返回顶部结束----- */
+/* -----右侧购物袋开始----- */
+.bag{width: 350px;height: 722px;background: #d6d1ca;position: fixed;top: 0;right:-350px;z-index: 97;padding: 0 30px;}
+.guanbi{width: 25px;height: 25px;margin: 40px 0px;margin-left: 290px;margin-left: 278px;font-size: 30px;color: #818a91;cursor: pointer;}
+.bagmain{width: 290px;height: 119px;}
+.bagmain>img{width: 72px;height: 108px;float: left;}
+.bagmain>p:nth-of-type(1){width: 198px;height: 81px;float: left;margin-left: 20px;}
+.bagmain>p:nth-of-type(1)>span{color: #151515;font-size: 14px;cursor: pointer;}
+.bagmain>p:nth-of-type(2){width: 198px;height: 25px;float: left;margin-left: 20px;color: #151515;font-size: 14px;}
+.bagmain>p:nth-of-type(2)>i{font-style: normal;cursor: pointer;}
+.bagmain>p:nth-of-type(2)>span{cursor: pointer;font-weight: 800;}
+.xiaoji{width: 290px;height:57px;padding: 10px 0;border-bottom: 1px dashed  #151515 ;border-top: 1px dashed  #151515 ;}
+.xiaoji>p{font-size: 20px;color: #151515;float: left;width: 60px;font-weight: 800;margin-left: 30px;}
+.xiaoji>i{font-size: 20px;color: #151515;font-style: normal;float: left;width: 11px;display: block;font-weight: 800;}
+.xiaoji>span{font-size: 20px;color: #151515;float: left;width: 54px;display: block;font-weight: 800;}
+.xiaoji>font{font-weight: 800;eight: 21px;line-height: 28px;}
+.bag>a{width: 290px;height: 40px;padding: 10px 40px;color:#151515 ;font-size: 12px;background:#d6d1ca ;border: 1px solid #151515;font-weight: 800;text-align: center;margin: 10px 0;}
+/* -----右侧购物袋结束----- */
+/* -----灰度开始----- */
+.huidu{width: 100%;height: 722px;background: rgba(0,0,0,.5);position: fixed;top: 0;left: 0;display: none;}
+/* -----灰度结束----- */
+
